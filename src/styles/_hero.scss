@@ -47,17 +47,26 @@
             margin-left: 200px;
 
             @media (max-width: 768px) {
-                max-width: 180px;
+                width: 50%;
+                margin-left: 80px;
             }
         }
 
         .title--small {
             margin-bottom: 64px;
             margin-left: 60px;
+            @media (max-width: 768px) {
+                width: 100%;
+                margin-left: 0px;
+            }
         }
 
         span, .link-text {
             margin-left: 60px;
+            @media (max-width: 768px) {
+                width: 50%;
+                margin-left: 0px;
+            }
         }
 
         p {
@@ -86,7 +95,15 @@
 
                 img {
                     max-height: 70px;  
-                    margin-left: 50px;             
+                    margin-left: 50px;  
+                    
+                    @media (max-width: 768px) {
+                        margin-left: 20px
+                    }
+
+                    @media (max-width: 1023px) {
+                        margin-left: 20px
+                    }
                 }
             }
         }
