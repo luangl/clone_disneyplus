@@ -16,6 +16,15 @@
         margin-top: -55px;
     }
 
+    @media (max-width: 1023px) {
+        background-image: url(../images/hero_tablet.jpg);
+        padding-top: calc(50vw + 25vw);
+        background-size: contain;
+        background-repeat: no-repeat;
+        margin-top: -65px;
+    }
+
+
     .button {
         margin: 2vw;
         margin-bottom: 8px;
@@ -23,6 +32,14 @@
 
     &__content {
         max-width: 640px;
+
+        @media (max-width: 768px){
+            margin-right: 40px;
+        }
+
+        @media (max-width: 1023px){
+            margin-left: 30px;
+        }
 
         &__branding {
             max-width: 320px;
